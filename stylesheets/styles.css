@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 .circular {
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
 /*  background: url(http://link-to-your/image.jpg) no-repeat;
