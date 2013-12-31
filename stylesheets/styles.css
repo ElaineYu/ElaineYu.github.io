@@ -106,14 +106,40 @@
 
 .project_box_title .fa-github {
   color: #66FFCC;
+  font-size: 30px;
+  display: inline;
 }
 
 .project_box_title .fa-github:hover {
   color: #FF6666;
+  font-size: 30px;
+  display:inline;
+
 }
 .project_image:hover {
-  opacity:0.4;
-  filter:alpha(opacity=100); /* For IE8 and earlier */
+  opacity:0.4;sr IE8 and earlier */
+}
+
+#show {
+  color: #FF6666;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 20px;
+}
+
+#show:hover {
+  color: #FFCCCC;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 20px;
+}
+
+#hide {
+  color: #FF6666;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#hide:hover {
+  color: #0033FF;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
