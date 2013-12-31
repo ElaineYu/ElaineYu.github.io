@@ -14,11 +14,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-
-
-     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-    <script type="text/javascript" src="javascripts/dialog_box.js"></script>
     <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
 
     <!--[if lt IE 9]>
@@ -43,8 +40,6 @@
         <a href="blog/index.html">Blog</a>
         <a href="photography/index.html">Photography</a> -->
 
-
-
       </header>
 
       <section>
@@ -55,22 +50,26 @@
     <div class="shadow_box">
       <div class="content_box">
         <div class="black_header_background">
-        <h2 class="project_box_title"> 
-          <a href="http://braintrade.herokuapp.com/">BrainTrade</a>&nbsp&nbsp
-          <a href="https://github.com/meara/brain_trade">
-            <i class="fa fa-github"></i>
-          </a>
-        </h2>
+          <h2 class="project_box_title"> 
+            <a href="http://braintrade.herokuapp.com/">BrainTrade</a>&nbsp&nbsp
+            <a href="https://github.com/meara/brain_trade">
+              <i class="fa fa-github"></i></a><label id="show">About</label>
+          </h2>
         </div>
-          <a href="https://github.com/meara/brain_trade">
-            <img class="project_image" src="images/braintrade_screenshot.png">
-          </a><br>
-          <div id="dialog-form">
-            <p class="toggle_project_description"> 
-              BrainTrade is a peer learning network that allows users to trade expertise for free. Earn credits teaching others and use your credits to learn something new from someone else. 
-              <i class="fa fa-cogs"></i>&nbsp BrainTrade was my final project at <a href="http://devbootcamp.com/">DevBootcamp</a> and a team effort with <a href="https://github.com/mearaa">Meara Charnetzki</a>, <a href="https://github.com/conman246">Connor McCrone</a>, and <a href="https://github.com/obf73">Oliver Francescatti</a>.
-          </p>
-        </div>
+            <div id="about_project_box" style="display: none">
+              <label id="hide"> hide</label><br><br>
+              <i class="fa fa-cogs">&nbsp About BrainTrade</i>
+              <p> BrainTrade is a peer learning network that allows users to trade expertise for free. Users can earn credits teaching others and then use their credits to learn something new from someone else.</p>
+
+              <i class="fa fa-users">&nbsp Team and Group Process</i>
+              <p> BrainTrade was created in 8 days as a final project at <a href="http://devbootcamp.com/">DevBootcamp</a> with my incredible teammates <a href="https://github.com/mearaa">Meara Charnetzki</a>, <a href="https://github.com/conman246">Connor McCrone</a>, and <a href="https://github.com/obf73">Oliver Francescatti</a>.  Our team employed <a href="https://gist.github.com/amgando/f2b8aade174a272096a6">agile development practices</a> (pair programming, iterations, user stories, daily standups) and GitHub workflow processes.  We also used <a href="https://trello.com/">Trello</a> boards to track team progress and <a href="https://www.hipchat.com/">HipChat</a> to share ideas, code, and files (and memes, of course!).</p>
+
+              <i class="fa fa-wrench">&nbsp Technologies</i>
+              <p> This web application was developed using <a href="http://rubyonrails.org/"> Ruby on Rails </a> and tested with <a href="http://rspec.info/">RSpec</a>, <a href="https://github.com/jnicklas/capybara">Capybara</a> and <a href="https://github.com/thoughtbot/factory_girl">FactoryGirl</a>.   Front-end was designed with CSS3, <a href="http://getbootstrap.com/">Bootstrap</a> and Javascript (<a href="http://jquery.com/">JQuery</a>, Ajax) and our database was managed with <a href="http://www.postgresql.org/">PostgreSQL</a>. </p>  
+          </div>
+            <a href="https://github.com/meara/brain_trade">
+              <img class="project_image" src="images/braintrade_screenshot.png">
+            </a><br>
         </div>
     </div>
     
@@ -100,7 +99,7 @@
       </section>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-
+    <script src="javascripts/about_box.js"></script>
     </script>
   </body>
 </html>
