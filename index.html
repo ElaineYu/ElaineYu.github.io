@@ -8,7 +8,19 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <link href='http://fonts.googleapis.com/css?family=Codystar|Monoton' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+
+
+     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script type="text/javascript" src="javascripts/dialog_box.js"></script>
+    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -16,29 +28,73 @@
   <body>
     <div class="wrapper">
       <header>
-        <p>Welcome to my personal site</p>
 
-        <img src="personal_photo.JPG" class="circular"><br>
-       
-        <label>&nbsp<span class="e">e</span> <span class="l">l</span> <span class="a">a</span> <span class="i">i</span><span class="n">n</span><span class="ee">e</span>&nbsp&nbsp&nbsp&nbsp<span class="y">y</span><span class="u">u</span></label>
+        <img src="images/personal_photo.JPG" class="circular"><br>
+        <label class="my_name">elaine yu</label><br>
 
-        <p class="view"><a href="https://github.com/ElaineYu">View My GitHub Profile</a></p>
-        <a href="https://github.com/ElaineYu" class="user-mention">@ElaineYu</a>
+        <div class="icon_links"
+          <a href="https://github.com/ElaineYu"><i class="fa fa-github"></i></a>
+          <a href="https://twitter.com/CuttlefishCloak"><i class="fa fa-twitter"></i></a>&nbsp  
+          <a href="https://www.linkedin.com/pub/elaine-yu/7/971/184"><i class="fa fa-linkedin"></i></a>&nbsp  
+          <a href="mailto:elaine.lee.yu@gmail.com"><i class="fa fa-envelope-o"></i></a>&nbsp
+        </div>
 
       </header>
 
       <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" ><span class="octicon octicon-link"></span></a>Projects</h3>
+        <h1>
+          <a name="welcome-to-github-pages" class="anchor" ><span class="octicon octicon-link"></span></a>Projects
+        </h1>
+    
+    <div class="shadow_box">
+      <div class="content_box">
+        <div class="black_header_background">
+        <h2 class="project_box_title"> 
+          <a href="http://braintrade.herokuapp.com/">BrainTrade</a>&nbsp&nbsp
+          <a href="https://github.com/meara/brain_trade">
+            <i class="fa fa-github"></i>
+          </a>
+        </h2>
+        </div>
+          <a href="https://github.com/meara/brain_trade">
+            <img class="project_image" src="images/braintrade_screenshot.png">
+          </a><br>
+          <div id="dialog-form">
+            <p class="toggle_project_description"> 
+              BrainTrade is a peer learning network that allows users to trade expertise for free. Earn credits teaching others and use your credits to learn something new from someone else. 
+              <i class="fa fa-cogs"></i>&nbsp BrainTrade was my final project at <a href="http://devbootcamp.com/">DevBootcamp</a> and a team effort with <a href="https://github.com/mearaa">Meara Charnetzki</a>, <a href="https://github.com/conman246">Connor McCrone</a>, and <a href="https://github.com/obf73">Oliver Francescatti</a>.
+          </p>
+        </div>
+        </div>
+    </div>
+    
+    <div class="shadow_box">
+      <div class="content_box">
+        <div class="black_header_background">
+          <h2 class="project_box_title"> 
+            <a href="http://bootietracker.herokuapp.com/">BootieTracker&nbsp</a>
+            <a href="https://github.com/cpkenn09y/Booty-Tracker">
+              <i class="fa fa-github"></i>
+            </a>
+             &nbsp&nbsp
+<!--              <button class="about-project">About</button>
+ -->
+<!--              <a class="about-project">About </a>
+ -->          
+        </h2>
+        </div>
+          <a href="http://bootietracker.herokuapp.com/">
+            <img class="project_image" src="images/bootie_tracker.png"><br>
+          </a>
+      </div>
+    </div>
 
-<p>This page is under construction, thanks for your patience!</p>
+
 
       </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+
+    </script>
   </body>
 </html>
