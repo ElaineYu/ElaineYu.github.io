@@ -18,6 +18,12 @@
   font-size: 250%;
 }
 
+.my_name:hover {
+  color: #FF6666;
+  font-family: 'Codystar', cursive;
+  font-size: 250%;
+}
+
 .icon_links {
   margin-left: 30px;
   margin-top: 20px;
@@ -270,7 +276,7 @@ header ul a strong {
 }
 
 section {
-  width:550px;
+  width:600px;
   float:right;
   padding-bottom:50px;
 }
