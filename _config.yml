@@ -1,0 +1,2 @@
+source:      .	# Change the directory where Jekyll will read files
+destination: ./_site #Change the directory where Jekyll will write files
