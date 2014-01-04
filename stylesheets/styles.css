@@ -1,33 +1,45 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
-.circular {
-  width: 70%;
-  height: 70%;
-  border-radius: 200px;
-  -webkit-border-radius: 200px;
-  -moz-border-radius: 200px;
-   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
- }
 
+.navigation-text {
+  padding-top: 20px;
+  padding-left: 70px;
+    font-size: 120%;
+
+}
+
+.box {
+  float: left;
+  left: 0px;
+  top: 0px;
+}
+
+.my-name-homepage-heading {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  padding-left: 8px;
+  max-width: 250px;
+}
 
 .my_name {
   color: #6699FF; 
   font-family: 'Codystar', cursive;
-  font-size: 250%;
+  font-size: 280%;
 }
 
 .my_name:hover {
   color: #FF6666;
   font-family: 'Codystar', cursive;
-  font-size: 250%;
+  font-size: 280%;
 }
 
 .icon_links {
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  top: 100px;
+  margin-left: 40px;
+  margin-top: 230px;
+/*  margin-bottom: 20px;*/
+
 }
 
 .fa.fa-twitter{
