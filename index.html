@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Elaineyu.github.io by ElaineYu</title>
 
+    <link type="text/css" rel="stylesheet" href="stylesheets/about.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <link href='http://fonts.googleapis.com/css?family=Codystar|Monoton' rel='stylesheet' type='text/css'>
@@ -26,22 +27,46 @@
     <div class="wrapper">
       <header>
 
-        <img src="images/personal_photo.JPG" class="circular"><br>
-        <a href="/" class="my_name">elaine yu</a><br>
+   <!--      <img src="http://4vector.com/i/free-vector-avocado-clip-art_112586_Avocado_clip_art_hight.png" class="circular"><br> -->
 
-        <div class="icon_links">
-          <a href="https://github.com/ElaineYu"><i class="fa fa-github"></i></a>
-          <a href="https://twitter.com/CuttlefishCloak"><i class="fa fa-twitter"></i></a>&nbsp  
-          <a href="https://www.linkedin.com/pub/elaine-yu/7/971/184"><i class="fa fa-linkedin"></i></a>&nbsp  
-          <a href="mailto:elaine.lee.yu@gmail.com"><i class="fa fa-envelope-o"></i></a>&nbsp
+        <div ="my-name-homepage-heading"><a href="/" class="my_name">elaine yu</a><br></div>
+
+        <!-- Rotating Pyramid -->
+        <div class="box">
+         <div class="viewport">
+             <div class="pyramid-outer">
+                <div class="pyramid">
+                  <i class="fa fa-star"></i>
+                    <div class="pyramid-inner">
+                    <i class="fa fa-rocket"></i>
+                    <div class="pyramid-base"></div>
+                    <div class="pyramid-face"></div>
+                    <div class="pyramid-face"></div>
+                    <div class="pyramid-face"></div>
+                    <div class="pyramid-face"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Icons -->
+          <div class="icon_links">
+              <a href="https://github.com/ElaineYu"><i class="fa fa-github"></i></a>
+              <a href="https://twitter.com/CuttlefishCloak"><i class="fa fa-twitter"></i></a>&nbsp  
+              <a href="https://www.linkedin.com/pub/elaine-yu/7/971/184"><i class="fa fa-linkedin"></i></a>&nbsp  
+              <a href="mailto:elaine.lee.yu@gmail.com"><i class="fa fa-envelope-o"></i></a>&nbsp
+           </div>
+    
+          <!-- Navigation Links -->
+        <div class="navigation-text">
+            <a href="/">Projects</a><br>
+            <a href="/about.html">About</a><br>
         </div>
-
-        <!-- <a href="about/index.html">About</a>
-        <a href="blog/index.html">Blog</a>
-        <a href="photography/index.html">Photography</a> -->
-
+        
       </header>
 
+      <!-- Left-hand section -->
       <section>
         <h1>
           <a name="welcome-to-github-pages" class="anchor" ><span class="octicon octicon-link"></span></a>Projects
@@ -49,13 +74,15 @@
     
     <div class="shadow_box">
       <div class="content_box">
-        <div class="black_header_background">
-          <h2 class="project_box_title"> 
-            <a href="http://braintrade.herokuapp.com/">BrainTrade</a>&nbsp&nbsp
-            <a href="https://github.com/meara/brain_trade">
-              <i class="fa fa-github"></i></a><label id="show">About</label>
-          </h2>
-        </div>
+            <div class="black_header_background">
+              <h2 class="project_box_title"> 
+                <a href="http://braintrade.herokuapp.com/">BrainTrade</a>&nbsp&nbsp
+                <a href="https://github.com/meara/brain_trade">
+                  <i class="fa fa-github"></i></a><label id="show">About</label>
+              </h2>
+            </div>
+
+            <!-- Hidden "about project" text -->
             <div id="about_project_box" style="display: none">
               <label id="hide"> hide</label><br><br>
               <i class="fa fa-cogs">&nbsp About BrainTrade</i>
@@ -67,7 +94,9 @@
               <i class="fa fa-wrench">&nbsp Technologies</i>
               <p> This web application was developed using <a href="http://rubyonrails.org/"> Ruby on Rails </a> and tested with <a href="http://rspec.info/">RSpec</a>, <a href="https://github.com/jnicklas/capybara">Capybara</a> and <a href="https://github.com/thoughtbot/factory_girl">FactoryGirl</a>.   Front-end was designed with CSS3, <a href="http://getbootstrap.com/">Bootstrap</a> and Javascript (<a href="http://jquery.com/">JQuery</a>, Ajax) and our database was managed with <a href="http://www.postgresql.org/">PostgreSQL</a>. </p>  
           </div>
-            <a href="https://github.com/meara/brain_trade">
+
+          <!-- BrainTrade image with link -->
+            <a href="http://braintrade.herokuapp.com/">
               <img class="project_image" src="images/braintrade_screenshot.png">
             </a><br>
         </div>
