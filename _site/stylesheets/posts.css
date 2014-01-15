@@ -1,0 +1,52 @@
+.moby {
+  width: 100px;
+  heigh: 100px;
+}
+
+.blog-navbar {
+	display: inline-block;
+	width: 1110px;
+	height: 40px;
+	padding-bottom: 20px;
+	border-bottom-style:solid;
+	border-color: #D0D0D0;
+
+}
+
+.first-link {
+	margin-left: 300px;
+}
+
+#blog-sub-link {
+	font-size: 120%;
+	padding-left: 40px;
+}
+
+
+.post- {
+	margin-top: 7px;
+	font-size: 110%;
+}
+.blog-date {
+	float: right;
+	padding-right: 100px;
+	text-transform: uppercase;
+}
+
+.blog-title-and-date {
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+}
+h1.page-title {
+	font: normal 52px/58px Georgia,"Times New Roman",serif;
+    color: #000;
+
+}
+
+.blog-content-text {
+	font-size: 20px;
+	line-height: 160%;
+	font-family: 'AvenirNextLTW01-Regular', Helvetica, sans-serif;
+	color: #000;
+	margin: 25px 20px 25px 20px;
+}

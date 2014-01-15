@@ -1,0 +1,74 @@
+.about_content_box {
+	z-index: 1;
+	height: 160px;
+	padding-bottom: 100px;
+/*	background-image: url('/images/moby.jpg');
+
+*/	
+background-image: url('http://favim.com/orig/201108/01/black-and-white-night-sky-stars-Favim.com-118734.jpg');
+);
+background-size: 100%;
+
+/*	background-image: url(http://uncannymanfrog.files.wordpress.com/2011/04/blue-dots.jpg);
+*/}
+
+.my-photo {
+	z-index: 2;
+	position: relative;
+	margin-top: -255px;
+	left: 300px;
+	
+}
+
+
+.circular {
+  width: 42%;
+  height: 60%;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+   box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, .8);
+ }
+
+
+.speech-bubble {
+	z-index: 2;
+	position: relative;
+	left: 100px;
+	margin-top: -100px;
+}
+
+.speech-box {
+	width: 35%;
+	height: 45%;
+}
+
+.hello {
+	position: absolute;
+	z-index: 2;
+	margin-top: -150px;
+	margin-left: 20px;
+	color: yellow;
+	font-size: 340%;
+/*	font-family: "Comic Sans MS", cursive, sans-serif;
+*/
+	font-family: "Monoton";
+}
+
+.about-me-text {
+	margin-top: 10px;
+	background-color: white;
+    padding: 20px 10px 20px 10px;
+
+}
+
+#skills {
+	color: black;
+}
+
+.skills-list {
+	background-color: #FF6666;
+	padding: 20px 10px 20px 10px;
+}

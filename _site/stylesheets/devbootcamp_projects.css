@@ -1,0 +1,158 @@
+.about-label {
+  font-size: 70%;
+  font-weight: bold;
+  color: #FFCC00;
+}
+
+.fa.fa-bolt {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+#show {
+    font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #FFCC00;
+}
+
+#show:hover {
+   color: #FF6666;
+}
+
+
+#show1 {
+    font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #FFCC00;
+}
+
+#show1:hover {
+   color: #FF6666;
+}
+
+/*#show:hover {
+    color: #FF6666;
+    font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}*/
+
+/* Hide information arrow */
+.arrow-up {
+    width: 0px;
+    height: 0px;
+    margin-left: 250px;
+    border-style: inset;
+    border-width: 0 25px 43.3px 25px;
+    border-color: transparent transparent black transparent;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+
+.arrow-up:hover {
+    width: 0px;
+    height: 0px;
+    margin-left: 250px;
+    border-style: inset;
+    border-width: 0 25px 43.3px 25px;
+    border-color: transparent transparent #6FC transparent;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+
+#hide {
+    /* "hide" text alignment in triangle */
+    text-align: center;
+    top: 20px;
+    left: -11.25px;
+    position: relative;
+    width: 23.25px;
+    height: 23.25px;
+    margin: 0px;
+    /* font and color*/
+    color: white; /*#FF6666;*/
+    font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#hide:hover {
+  color: tomato;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#hide1 {
+    /* "hide" text alignment in triangle */
+    text-align: center;
+    top: 20px;
+    left: -11.25px;
+    position: relative;
+    width: 23.25px;
+    height: 23.25px;
+    margin: 0px;
+    /* font and color*/
+    color: white; /*#FF6666;*/
+    font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#hide1:hover {
+  color: tomato;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Project description boxes */
+/* Add shadow*/
+.shadow_box {
+  border: outset;
+  border-width:2px;
+  box-shadow: 10px 10px 5px #888888;
+  margin-bottom: 20px;
+}
+
+/* content margins */
+.content_box {
+  margin: 5px 5px 5px 5px;
+}
+
+.black_header_background {
+  background-color: black; /*#F8F8F8;*/
+  margin-bottom: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/* Project title and link fonts */
+.project_box_title {
+  font-size: 200%;
+  margin-left: 20px;
+}
+
+.project_box_title a{
+  color: #6FC;
+  font-family: 'Codystar', cursive;   
+/*  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+*/
+}
+
+.project_box_title a:hover{
+  color: #FF6666;
+}
+
+.project_box_title .fa-github {
+  color:  #6FC;
+  font-size: 30px;
+  display: inline;
+}
+
+.project_box_title .fa-github:hover {
+  color: #FF6666;
+  font-size: 30px;
+  display:inline;
+
+}
+.project_image:hover {
+  opacity:0.4;sr IE8 and earlier */
+}
+
