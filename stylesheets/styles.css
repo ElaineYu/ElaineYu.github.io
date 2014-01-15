@@ -1,159 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
-
-.navigation-text {
-  padding-top: 20px;
-  padding-left: 70px;
-    font-size: 120%;
-
-}
-
-.box {
-  float: left;
-  left: 0px;
-  top: 0px;
-}
-
-.my-name-homepage-heading {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  padding-left: 8px;
-  max-width: 250px;
-}
-
-.my_name {
-  color: #6699FF; 
-  font-family: 'Codystar', cursive;
-  font-size: 280%;
-}
-
-.my_name:hover {
-  color: #FF6666;
-  font-family: 'Codystar', cursive;
-  font-size: 280%;
-}
-
-.icon_links {
-  top: 100px;
-  margin-left: 40px;
-  margin-top: 230px;
-/*  margin-bottom: 20px;*/
-
-}
-
-.fa.fa-twitter{
-  color:#6699CC;
-  font-size: 26px;
-}
-
-.fa.fa-twitter:hover{
-  color:#99FFFF;
-  font-size: 26px;
-}
-
-.fa.fa-github{
-  color:#6699CC;
-  font-size: 26px
-}
-
-.fa.fa-github:hover{
-  color:#99FFFF;
-  font-size: 26px;
-}
-
-.fa.fa-linkedin{
-  color:#6699CC;
-  font-size: 26px
-}
-
-.fa.fa-linkedin:hover{
-  color:#99FFFF;
-  font-size: 26px;
-}
-
-.fa.fa-envelope-o{
-  color:#6699CC;
-  font-size: 26px
-}
-
-.fa.fa-envelope-o:hover{
-  color:#99FFFF;
-  font-size: 26px;
-}
-
-.shadow_box {
-  border: outset;
-  border-width:2px;
-  box-shadow: 10px 10px 5px #888888;
-  margin-bottom: 20px;
-}
-
-.content_box {
-  margin: 5px 5px 5px 5px;
-}
-
-.black_header_background {
-  background-color: black;
-  margin-bottom: 10px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
-
-.project_box_title {
-  color: #66FFCC;
-  font-size: 200%;
-  margin-left: 20px;
-}
-
-.project_box_title a{
-  color: #66FFCC;
-  font-weight: bold;
-  font-family: 'Codystar', cursive;
-}
-
-.project_box_title a:hover{
-  color: #FF6666;
-}
-
-.project_box_title .fa-github {
-  color: #66FFCC;
-  font-size: 30px;
-  display: inline;
-}
-
-.project_box_title .fa-github:hover {
-  color: #FF6666;
-  font-size: 30px;
-  display:inline;
-
-}
-.project_image:hover {
-  opacity:0.4;sr IE8 and earlier */
-}
-
-#show {
-  color: #FF6666;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-left: 20px;
-}
-
-#show:hover {
-  color: #FFCCCC;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-left: 20px;
-}
-
-#hide {
-  color: #FF6666;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-#hide:hover {
-  color: #0033FF;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -168,6 +14,11 @@ body {
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
+}
+
+p {
+  font-size: 16px;
+  color: black;
 }
 
 h1, h2, h3 {
