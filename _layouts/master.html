@@ -1,0 +1,27 @@
+{% include header.html %}
+
+    <div class="wrapper">
+      <header>
+        {% include left_navigation.html %}
+        
+        
+
+      </header>
+
+      <!-- Left-hand section -->
+      <section>
+        <!-- Projects -->
+        {% if page.url == '/index.html' %}
+          {% include devbootcamp_projects.html %}
+        {% elsif page.url == '/about.html' %}
+          {% include about_me.html %}
+        {% elsif page.url == '/blog.html' %}
+            {% include blog_archive.html %}
+        {% endif %}  
+
+      </section>
+    </div>
+  
+{% include footer.html %}
+
+  

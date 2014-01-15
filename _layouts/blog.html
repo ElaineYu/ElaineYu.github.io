@@ -1,0 +1,19 @@
+{% include header.html %}
+
+ <div class="blog-navbar">
+	<a href="/" class="my_name">ELAINE YU</a>
+	<a class="first-link" id="blog-sub-link" href="/">Dev Bootcamp Projects</a>
+	<a id="blog-sub-link" href="/about.html">About</a>
+	<a id="blog-sub-link" href="/blog.html">Blog Archive</a>
+</div>
+	<div class="blog-title-and-date">
+   <h1 class="page-title">{{ page.title }}</h1>
+      <p class="date">{{ page.date | date: "%A, %B %d, %Y" }}</p>
+
+    </div>
+
+<div class="blog-content">
+{{ content }}
+
+</div>
+{% include footer.html %}
