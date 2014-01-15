@@ -1,0 +1,17 @@
+     <!-- Navigation Links -->
+        <div class="navigation-text">
+
+        {% if page.url == '/index.html' %}
+            <a href="/"><b>Dev Bootcamp Projects</b></a><br>
+            <a href="/about.html">About</a><br>
+            <a href="/blog.html">Blog Archive</a><br>
+        {% elsif page.url == '/about.html' %}
+            <a href="/"> Dev Bootcamp Projects</a><br>
+            <a href="/about.html"><b>About</b></a><br>
+            <a href="/blog.html">Blog Archive</a><br>
+        {% elsif page.url == '/blog.html' %}
+            <a href="/">Dev Bootcamp Projects</a><br>
+            <a href="/about.html">About</a><br>
+            <a href="/blog.html"><b>Blog Archive</b></a><br>
+        {% endif %}
+        </div>
