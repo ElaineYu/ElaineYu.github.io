@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-  // Click event
     $('#show').click(function(event){
        event.preventDefault();
        console.log("click!");
