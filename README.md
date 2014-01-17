@@ -9,7 +9,7 @@ Ingredients
 *   Jekyll
 *	Javascript/JQuery
 *	CSS3 & 3D CSS (see rotating pyramid)
-* 	Love &  too much listening of futuristic synthesizer music while coding this website at the time of writing, which inspired the space theme
+* 	Love & too much listening to futuristic synthesizer music while coding this, hence the space theme...
 
 Contact
 ---------------------
