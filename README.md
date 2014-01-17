@@ -8,7 +8,7 @@ Ingredients
 *   Github pages
 *   Jekyll
 *	Javascript/JQuery
-*	CSS3 & 3D CSS (see rotating pyramid)
+* 3D CSS3 
 * 	Love & too much listening to futuristic synthesizer music while coding this, hence the space theme...
 
 Contact
