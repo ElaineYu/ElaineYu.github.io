@@ -69,6 +69,29 @@ background-size: 100%;
 }
 
 .skills-list {
-	background-color: #FF6666;
 	padding: 20px 10px 20px 10px;
+}
+
+.resume-heading {
+	color: black;
+	padding-bottom: 10px;
+	border-bottom: solid #F0F0F0 ;
+	border-width: 1px;
+}
+
+.resume-subsection {
+	color: black;
+	padding-bottom: 20px;
+}
+
+#resume-name-heading {
+	color: #990000;
+	font-size: 120%;
+}
+
+.resume-subection-job-title {
+	font-size: 18px;
+}
+.resume-block {
+	padding-bottom: 15px;
 }
