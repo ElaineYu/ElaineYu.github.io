@@ -18,12 +18,7 @@
 
 .my_name {
   color: #3300CC;
-  /*  font-family: 'Codystar', cursive; */ 
-/*  margin-left: 5px;
-*/  /*font-family: 'Chango', cursive;*/
-  
-/*  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;  font-weight: normal;
-*/  font-size: 300%;
+  font-size: 300%;
 }
 
 /*font-family: 'Press Start 2P', cursive;
@@ -52,12 +47,12 @@ font-family: 'Chango', cursive;*/
   font-size: 26px;
 }
 
-.fa.fa-github{
+.fa.fa-github#nav-page{
   color: #3300CC;/*#6699CC;*/
   font-size: 26px
 }
 
-.fa.fa-github:hover{
+.fa.fa-github#nav-page:hover{
   color:#99FFFF;
   font-size: 26px;
 }

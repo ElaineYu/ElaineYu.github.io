@@ -32,7 +32,6 @@
 
 
 /* Project description boxes */
-/* Add shadow*/
 .shadow_box {
   border: outset;
   border-width:2px;
@@ -46,7 +45,7 @@
 }
 
 .black_header_background {
-  background-color: black; /*#F8F8F8;*/
+  background-color: black; 
   margin-bottom: 10px;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -60,9 +59,8 @@
 
 .project_box_title a{
   color: #6FC;
-  font-family: 'Codystar', cursive;   
-/*  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-*/
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 }
 
 .project_box_title a:hover{

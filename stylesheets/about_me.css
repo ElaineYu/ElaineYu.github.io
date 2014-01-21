@@ -1,60 +1,31 @@
-.about_content_box {
-	z-index: 1;
-	height: 160px;
-	padding-bottom: 100px;
-/*	background-image: url('/images/moby.jpg');
 
-*/	
-background-image: url('http://favim.com/orig/201108/01/black-and-white-night-sky-stars-Favim.com-118734.jpg');
-);
-background-size: 100%;
-
-/*	background-image: url(http://uncannymanfrog.files.wordpress.com/2011/04/blue-dots.jpg);
-*/}
-
-.my-photo {
-	z-index: 2;
-	position: relative;
-	margin-top: -255px;
-	left: 300px;
-	
+#my-photo {
+	float: right;
+	margin-right: -170px;
+	padding-top: 20px;
 }
 
 
-.circular {
-  width: 42%;
-  height: 60%;
-  border-radius: 200px;
-  -webkit-border-radius: 200px;
-  -moz-border-radius: 200px;
+#rounded {
+  width: 52%;
+  height: 70%;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
    box-shadow: 0 0 16px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 16px rgba(0, 0, 0, .8);
  }
 
 
-.speech-bubble {
-	z-index: 2;
-	position: relative;
-	left: 100px;
-	margin-top: -100px;
-}
-
-.speech-box {
-	width: 35%;
-	height: 45%;
-}
-
-.hello {
-	position: absolute;
-	z-index: 2;
-	margin-top: -150px;
-	margin-left: 20px;
-	color: yellow;
+#hello {
+	padding-top: 100px;
+	float: left;
+	color: black;
+	margin-left: 30px;
 	font-size: 340%;
-/*	font-family: "Comic Sans MS", cursive, sans-serif;
-*/
 	font-family: "Monoton";
+	background-color: white;
 }
 
 .about-me-text {
@@ -68,13 +39,13 @@ background-size: 100%;
 	color: black;
 }
 
-.skills-list {
-	padding: 20px 10px 20px 10px;
+.resume {
+	padding: 30px 10px 10px 10px;
 }
 
 .resume-heading {
 	color: black;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	border-bottom: solid #F0F0F0 ;
 	border-width: 1px;
 }
@@ -84,14 +55,41 @@ background-size: 100%;
 	padding-bottom: 20px;
 }
 
+#resume-current-job-title {
+	font-size: 18px;
+}
+
 #resume-name-heading {
 	color: #990000;
 	font-size: 120%;
 }
 
-.resume-subection-job-title {
+.resume-job-title {
 	font-size: 18px;
 }
-.resume-block {
-	padding-bottom: 15px;
+
+.resume-organization {
+	color: #990000;
+	font-size: 110%;
 }
+
+.resume-block {
+	padding-bottom: 20px;
+}
+
+.about-bottom-links {
+	font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	color: #484848;
+	padding-bottom: 20px;
+	font-size: 150%;
+}
+
+.about-bottom-links:hover {
+	color: pink;
+}
+
+#padding-left-github-icon {
+	padding-left: 20px;
+}
+
+
