@@ -75,7 +75,7 @@
           <!-- Rotating Pyramid END -->
                  <!-- Icons -->
           <div class="icon_links">
-              <a href="https://github.com/ElaineYu"><i class="fa fa-github"></i></a>
+              <a href="https://github.com/ElaineYu"><i class="fa fa-github" id="nav-page"></i></a>
               <a href="https://twitter.com/CuttlefishCloak"><i class="fa fa-twitter"></i></a>&nbsp  
               <a href="https://www.linkedin.com/pub/elaine-yu/7/971/184"><i class="fa fa-linkedin"></i></a>&nbsp  
               <a href="mailto:elaine.lee.yu@gmail.com"><i class="fa fa-envelope-o"></i></a>&nbsp
@@ -109,27 +109,28 @@
           <div class="shadow_box">
             <div class="content_box">
             <div class="about_content_box"></div>
-             <div class="my-photo"><img src="images/personal_photo.JPG" class="circular"></div>
 
-              <!-- <div class="speech-bubble"> <img class="speech-box" src="images/speech_box.png"></div> -->
-              <label class="hello">Hello <br> world</label>
+            <section id="photo-hello">
+             <div id="my-photo"><img src="images/personal_photo.JPG" id="rounded"></div>
+              <div id="hello">Hello <br> world</div>
+            </section>
               
               <div class="about-me-text">
-               <p> I’m a full stack software developer and recent graduate from DevBootcamp, an intensive 9-week web developer apprenticeship. </p>
+               <p> I’m a full stack software developer and recent graduate from <a href="http://devbootcamp.com/" >Dev Bootcamp </a>, an intensive 9-week web developer apprenticeship.  &nbsp&nbsp I started coding because I want to build beautiful, meaningful products and help organizations solve big challenges through technology.</p>
 
-              <p> I started coding because I want to build beautiful, meaningful products and help organizations solve big challenges through technology. &nbsp&nbsp I’m also deeply interested in helping open government data initiatives nurture digital products and bring data to life, which makes me excited to learn languages and libraries like R and d3.js.</p>
+              <p> Currently I’m deeply interested in helping open government data initiatives nurture digital products and bring data to life, which makes me excited to learn languages and libraries like <a href="http://www.r-project.org/"> R </a> and <a href="http://d3js.org/">d3js </a>. &nbsp&nbsp I've also been spending a lot of time with <a href="http://www.meetup.com/Women-Who-Code-SF/"> Women Who Code </a> and <a href="http://nerdsfornature.org/"> Nerds for Nature </a>. &nbsp&nbsp Otherwise I'm usually cooking, seeing stand-up comedy or learning how to surf. </p>
 
+              <p> If you'd like to cross-pollinate on ideas, projects, or just get in touch, I'm an open book. &nbsp&nbsp Feel free to send me an <a href="mailto:elaine.lee.yu@gmail.com">email</a>. </p>
 
-              <p> When I'm not coding, I’m usually dabbling in soulful home cooking, geeking out on science, seeing standup-comedy, or learning how to surf.</p>
-
-              <p> If you'd like to get in touch, I'm an open book.  Feel free to send me an <a href="mailto:elaine.lee.yu@gmail.com">email</a>. </p>
-              <div class="skills-list">
-                <h2> RESUME </h2>
-
+                  <a class="about-bottom-links" id="show2"> <i class="fa fa-caret-square-o-down"></i>  RESUME </a> 
+                  <a class= "about-bottom-links" id="padding-left-github-icon" href="https://github.com/ElaineYu"><i class="fa fa-github"></i> GitHub</a>
+              
+              <!-- Hidden resume -->
+              <div class="resume" style="display: none">
                 <div class="resume-block">
                   <div class="resume-subsection">
                     <a id="resume-name-heading" href="https://www.linkedin.com/pub/elaine-yu/7/971/184">Elaine Yu</a>
-                     <div class="resume-subection-job-title">Teaching Assistant at Dev Bootcamp</div>
+                     <div id="resume-current-job-title">Teaching Assistant at Dev Bootcamp</div>
                     San Francisco Bay Area
                   </div>
                 </div>
@@ -139,66 +140,76 @@
                 <div class="resume-block">
                 <div class="resume-subsection">
                   SEPT 2013 - DEC 2013 <br>
-                  <div class="resume-subection-job-title">Student / Dev Bootcamp </div>
+                  <div class="resume-job-title">Student</div>
+                  <div class="resume-organization">Dev Bootcamp</div>
                 </div>
                 
                 <div class="resume-subsection">
                   SEPT 2012 – FEB 2013<br>
-                  <div class="resume-subection-job-title">Sustainable Communities Associate / Strategic Energy Innovations</div>
+                  <div class="resume-job-title">Sustainable Communities Associate </div>
+                  <div class="resume-organization">Strategic Energy Innovations</div>
                 </div>
                 
                 <div class="resume-subsection">
                   FEB 2012 – AUG 2012 <br>
-                  <div class="resume-subection-job-title">Water Infrastructure and Energy Efficiency Research Intern / Green for All</div>
+                  <div class="resume-job-title">Research Intern, Water Infrastructure and Energy Efficiency </div>
+                  <div class="resume-organization">Green for All</div>
                 </div>
 
                 <div class="resume-subsection">
                   JUNE 2010 – JUNE 2012<br>
-                  <div class="resume-subection-job-title">Research Associate, Biofuels / Yale University </div>
+                  <div class="resume-job-title">Research Associate, Biofuels</div>
+                  <div class="resume-organization">Yale University</div>
+
                 </div>
                 
                 <div class="resume-subsection">
                   SEPT 2009 – DEC 2009<br>
-                  <div class="resume-subection-job-title">Graduate Consultant / General Electric </div>
+                  <div class="resume-job-title">Graduate Consultant, Biofuels </div>
+                  <div class="resume-organization">General Electric</div>
+
                 </div>
 
                 <div class="resume-subsection">
                   JUNE 2009 – AUG 2009<br>
-                  <div class="resume-subection-job-title"> Microfinance Field Researcher / Innovations for Poverty Action </div>
+                  <div class="resume-job-title"> Microfinance Field Researcher</div>
+                  <div class="resume-organization">Innovations for Poverty Action </div>
                 </div>
 
                 <div class="resume-subsection">
                   FEB 2008 – SEPT 2008<br>
-                  <div class="resume-subection-job-title">Regional Assistant for North America / United Nations Environment Programme, Convention on Migratory Species </div>
+                  <div class="resume-job-title">Regional Assistant for North America </div>
+                  <div class="resume-organization"> United Nations Environment Programme, Convention on Migratory Species</div>
                 </div>
 
                 <div class="resume-subsection">
                   SEPT 2006 – JUNE 2007<br>
-                  <div class="resume-subection-job-title"> College English Instructor / Northeast Agricultural University | Heilongjiang Institute of Science and Technology</div>
+                  <div class="resume-job-title"> College English Instructor </div>
+                  <div class="resume-organization">Northeast Agricultural University | Heilongjiang Institute of Science and Technology</div>
                 </div>
               </div>
 
               <div class="resume-block">
                 <p class="resume-heading">EDUCATION</p>
                   <div class="resume-subsection">
-                    <div class="resume-subection-job-title">Yale University</div>
+                    <div class="resume-job-title">Yale University</div>
                     Master of Environmental Management, Policy & Energy Systems<br>
                   </div>
 
                   <div class="resume-subsection">
-                    <div class="resume-subection-job-title">University of California, Santa Cruz</div>
+                    <div class="resume-job-title">University of California, Santa Cruz</div>
                     B.A. in Environmental Studies, Economics, with Honors<br>
                   </div>
                   
                   <div class="resume-subsection">
-                    <div class="resume-subection-job-title">Dev Bootcamp</div><br>
+                    <div class="resume-job-title">Dev Bootcamp</div><br>
                   </div>
               </div>
 
-                <p class="resume-heading">TECHNOLOGIES</p>
+                <p class="resume-heading">TECHNOLOGIES &nbsp & &nbsp SKILLS</p>
 
                 <div class="resume-block">
-                  <strong> Web Development Skills </strong>
+                  <strong> Web Development </strong>
                   <p>
                     <ul id="skills">
                      <li> Web application development in <strong>Ruby on Rails </strong> and <strong>Sinatra</strong> frameworks </li>
@@ -206,10 +217,11 @@
                       <li>Test Driven Development with <strong> RSpec, Capybara, FactoryGirl, </strong> and <strong> Jasmine </strong> </li>
                      <li>Front-end design with <strong> CSS3 </strong> and functionality with <strong> Javascript (JQuery, Ajax) </strong></li>
                       <li> <strong> Agile development </strong> (pair programming, iterations, user stories, daily standups) </li>
+                      <li> This website was made with <strong>Jekyll </strong> and <strong>Github pages</strong> </li>
                   </ul>
                   </p>
 
-                  <strong> Data Analysis and Research Skills </strong>
+                  <strong> Data Analysis and Research </strong>
                   <ul id="skills">
                      <li> Map creation and geospatial analysis with <strong> Geographic Information Systems (GIS) </strong></li>
                      <li> Statistical analysis with <strong>R</strong></li>
