@@ -67,12 +67,12 @@ font-family: 'Chango', cursive;*/
   font-size: 26px;
 }
 
-.fa.fa-envelope-o{
+.fa.fa-envelope-o#nav-page{
   color: #3300CC;/*#6699CC;*/
   font-size: 26px
 }
 
-.fa.fa-envelope-o:hover{
+.fa.fa-envelope-o#nav-page:hover{
   color:#99FFFF;
   font-size: 26px;
 }
